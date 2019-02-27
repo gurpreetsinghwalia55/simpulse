@@ -1,0 +1,22 @@
+There are multiple hospitals. Each hospital has multiple patients. A patient may or may not be monitored by one of the simpulse devices.
+
+HOSPTIALS
+	- ID
+	- NAME
+	
+PATIENTS
+	- ID
+	- PID
+	- HOSPTIAL_ID
+	
+DEVICES
+	- ID
+	- UID
+	- PUBLIC_KEY
+
+PATIENT_DEVICES
+	- ID
+	- PATIENT_ID
+	- DEVICE_ID
+	- FROM_TIME
+	- TO_TIME
